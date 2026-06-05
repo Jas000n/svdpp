@@ -9,6 +9,7 @@ Part I
 Let  $R_{n*m}$ be a rating matrix containing the ratings of $n$ users for $m$  items. Each matrix element  $r_{ui}$ refers to the rating of user $u$ for item  $i$. 
 
 The predictive rating of the SVD++ model is
+
 $$
 r_{ui} = \mu + b_u + b_i + q_i^T \left(p_u + \frac{1}{\sqrt{|R(u)|}}\sum_{j\in R(u)} y_j \right)
 $$
@@ -103,5 +104,5 @@ Part  II
 
 2. The curve of loss value relative to training iterations 
 
-​	![image-20220331125215439](https://tva1.sinaimg.cn/large/e6c9d24egy1h1dp1r3qrsj20hs0dct9y.jpg)
+​	![image-20220331125215439](curve.jpeg)
 
